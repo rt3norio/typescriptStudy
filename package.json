@@ -1,10 +1,11 @@
 {
-  "name": "typescriptStudy",
+  "name": "typescript-study",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "jest:init": "jest --init"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/rt3norio/typescriptStudy#readme",
   "devDependencies": {
+    "@types/jest": "^26.0.19",
     "@types/node": "^14.14.13",
     "@typescript-eslint/eslint-plugin": "^4.10.0",
     "eslint": "^7.15.0",
@@ -28,7 +30,9 @@
     "eslint-plugin-standard": "^4.1.0",
     "git-commit-msg-linter": "^3.0.0",
     "husky": "^4.3.6",
+    "jest": "^26.6.3",
     "lint-staged": "^10.5.3",
+    "ts-jest": "^26.4.4",
     "typescript": "^4.1.3"
   }
 }
